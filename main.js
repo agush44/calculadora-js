@@ -1,10 +1,8 @@
-
-
-// const serMutualTit = 3842;
-// const servMutualPart = 3220;
-// const servSepelio = 100;
-// const protOdontInd = 566;
-// const protOdontFam = 356;
+const serMutualTit = 3842;
+const servMutualPart = 3220;
+const servSepelio = 100;
+const protOdontInd = 566;
+const protOdontFam = 356;
 const apReqPMIind = 9389.79;
 const apReqPMI2000ind = 14156.95;
 const apReqPMI3000ind = 21380.06;
@@ -22,6 +20,7 @@ const apMinPMI3000 = (sueldoMinPMI3000 * 0.0765).toFixed(2);
 function cotizar() {
     let peopleQuantity = parseInt(prompt("Ingresá cantidad de personas"));
     let ageTit= parseInt(prompt("Ingresá edad del titular"));
+    // Inicializar variables luego del case 1
     // let ageCony = parseInt(prompt("Ingresá edad de conviviente"));
     // let youngQuantity = parseInt(prompt("Ingresá cuántos hijos son menores de 10 años"));
     let contributions = parseFloat(prompt("Ingresá descuento de obra social"));
@@ -60,69 +59,18 @@ function cotizar() {
             alert(plan);
             break;
         case 2:  
-            console.log("2 personas");
+
         case 3:
-            console.log("2 personas");
+            
         case 4:  
-            console.log("2 personas");
+            
         case 5:
-            console.log("2 personas");
+            
         case 6:
-            console.log("2 personas");
+            
         case 7:
-            console.log("2 personas");
+            
         case 8:
-            console.log("2 personas");
+            
     }
 }
-
-
-            //             apReqPMI2000ind && aporteTotal < apReqPMI3000ind){
-            //             plan = "Plan PMI 2000 con cuota bonificada";
-            //         }else{
-            //             plan = "Plan PMI 3000 con cuota bonificada";
-            //         }
-            //     alert(plan);
-            //     }else{
-            //         if(aporteTotal >= apMinPMI && aporteTotal < apReqPMIind){
-            //             diferenciaTope = apReqPMIind - aporteTotal;
-            //             plan = `Plan PMI con diferencia de aportes de $${diferenciaTope}`;
-            //         }else if(aporteTotal >= apMinPMI2000 && aporteTotal < apReqPMI2000ind){
-            //             diferenciaTope = apReqPMI2000ind - aporteTotal
-            //             plan = `Plan PMI con diferencia de aportes de $${diferenciaTope}`;
-            //         }else if(aporteTotal >= apMinPMI3000 && aporteTotal < apReqPMI2000ind){
-            //             diferenciaTope = apReqPMI2000ind - aporteTotal
-            //             plan = `Plan PMI con diferencia de aportes de $${diferenciaTope}`;
-            //         }
-            //     }
-            //     alert(plan);
-            // }else{ 
-
-            // } 
-            //      && aporteTotal < apReqPMI2000ind){
-            //         alert("Plan PMI con cuota bonificada");
-            //     }else if(aporteTotal >= apReqPMI2000ind && aporteTotal < apReqPMI3000ind){
-            //         alert("Plan PMI 2000 con cuota bonificada");
-            //     }else if(aporteTotal >= apReqPMI3000ind){
-            //         alert("Plan PMI 3000 con cuota bonificada");
-            //     }else{
-
-            //     }
-            // }else{ 
-
-            // } 
-            
-            
-            
-            
-            
-            // && aporteTotal >= apReqPMIind){
-            //     if(aporteTotal < apReqPMI2000ind){
-            //         alert("Plan PMI con cuota bonificada");
-            //     }else if(aporteTotal < apReqPMI3000ind) {
-            //         alert("Plan PMI 2000 con cuota bonificada");
-            //     }else{
-            //     alert("Plan PMI 3000 con cuota bonificada");
-            //     }
-            // }else{
-            //     if(){
