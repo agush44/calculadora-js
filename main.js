@@ -1,17 +1,26 @@
+// Servicios
 const serMutualTit = 3842;
 const servMutualPart = 3220;
 const servSepelio = 100;
 const protOdontInd = 566;
 const protOdontFam = 356;
+
+// Aportes requeridos ingreso individual según plan
 const apReqPMIind = 9389.79;
 const apReqPMI2000ind = 14156.95;
 const apReqPMI3000ind = 21380.06;
+
+// Aportes requeridos grupo familiar según plan
 const apReqPMIfam = 21668.97;
 const apReqPMI2000fam = 27146.67;
 const apReqPMI3000fam = 33406.58;
+
+// Sueldo mínimo para el ingreso en cada plan
 const sueldoMinPMI = 76000;
 const sueldoMinPMI2000 = 109000;
 const sueldoMinPMI3000 = 147000;
+
+// Aportes mínimos para el ingreso en cada plan
 const apMinPMI = (sueldoMinPMI * 0.0765).toFixed(2);
 const apMinPMI2000 = (sueldoMinPMI2000 * 0.0765).toFixed(2);
 const apMinPMI3000 = (sueldoMinPMI3000 * 0.0765).toFixed(2);
