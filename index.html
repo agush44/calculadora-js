@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primer desafío</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <select name="select">
+      <option value="true" selected>Individual</option>
+      <option value="false">Grupo Familiar</option>
+    </select>
+    <select name="conyuge">
+      <option value="true">Si</option>
+      <option value="false" selected>No</option>
+    </select>
+    <input type="number" name="edadTitular" placeholder="Edad del titular" />
+    <input
+      type="number"
+      name="edadConviviente"
+      placeholder="Edad de conviviente"
+    />
+    <input
+      id="cantidadHijos"
+      type="number"
+      name="cantidadHijos"
+      placeholder="Cantidad total de hijos"
+      value='{cantidadHijos}'
+    />
+
+    <checkbox name="hijosMenores" hidden>
+      <option value="true">Si</option>
+      <option value="false" selected>No</option>
+    <input
+      type="number"
+      name="hijosMenores"
+      placeholder="Cantidad de hijos menores"
+    />
+
     <button type="button" onclick="cotizar()">Testear código</button>
 
     <script src="./main.js"></script>
-</body>
+  </body>
 </html>
